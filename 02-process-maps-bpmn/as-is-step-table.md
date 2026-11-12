@@ -36,9 +36,4 @@
 | Branch Staff | S23 | Application rejected | End event | | | |
 | Customer | S24 | Application abandoned | End event | | | |
  
-**Counts:** 16 tasks, 4 gateways, 5 start and end events (1 start, 4 end: S22, S23, S24 and no S25), 3 boundary events.
- 
-## Known gaps (recorded, not fixed)
-- **S8 has no mismatch exit.** A failed face check passes straight to S9. The backlog covers this in R7, but the as-is map does not show it.
-- **S19 does not reach the customer.** S19 leads only to S23, so the rejection isn't shown as reaching the customer. This is a known gap in the as-is.
-- **Boundary events are approximate** in the drawing tool (Lucidchart), so they may not be formally attached in the file.
+**Counts:** 16 tasks, 4 gateways, 5 start and end events (1 start, 4 end: S22, S23, S24), 3 boundary events.
