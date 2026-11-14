@@ -41,9 +41,3 @@ Box text is the wording shown in the red boxes on the map. The same wording is u
 - **P4 has no KPI.** The brief already notes that fraud outcomes are not measured, so P4 is a control gap, not a KPI.
 - **The to-be column cites the regulation only as a design benchmark.** E1 describes what the platform must do. It does not say the branch process is faulty. The as-is problems are the author's hypotheses.
 - **The P8 turnaround target is a design choice,** not a regulatory requirement.
-## Known gaps in the as-is map
- 
-- **No selfie-mismatch exit.** At S8, a failed face check passes straight to S9. This is an open design decision and should be resolved before the to-be map.
-- **Rejection is not told to the customer.** S19 leads only to S23. The map does not show the customer being informed of a rejection. The regulation requires a customer notice on successful DFI completion (E1 p.9, clause 7), but does not say whether rejections must be notified. This is a known gap in the as-is.
-- **Boundary events are approximate.** The boundary events S2-B, S6-B and S13-B are placed on each task's edge. Attachment is approximate in the drawing tool (Lucidchart), so they may not be formally attached in the file.
- 
